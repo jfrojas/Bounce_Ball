@@ -18,6 +18,7 @@ public class ButtonActivation : MonoBehaviour {
 	
 	
 	void processButton(){
+		
 		if(isButton1 && buttonCounter == 1){
 			renderer.material.color = Color.red;
 			buttonCounter++;
@@ -41,11 +42,11 @@ public class ButtonActivation : MonoBehaviour {
 		else {
 			//restart the combination
 			Debug.Log("I'm in the else statement! && buttonCounter = " +buttonCounter);
-			buttonCounter = 1;
-			GameObject [] buttons = GameObject.FindGameObjectsWithTag("button");
-			foreach(GameObject b in buttons){
-				b.renderer.material.color = Color.green;
-			}
+			//buttonCounter = 1;
+			//GameObject [] buttons = GameObject.FindGameObjectsWithTag("button");
+			//foreach(GameObject b in buttons){
+				//b.renderer.material.color = Color.green;
+			//}
 		}
 			
 	}
@@ -60,6 +61,7 @@ public class ButtonActivation : MonoBehaviour {
 	
 	// Trigger event
     void OnTriggerEnter(Collider other) {
+		Debug.Log ("hola");
         if(other.CompareTag("Player")){ 
 			processButton();
 		}
