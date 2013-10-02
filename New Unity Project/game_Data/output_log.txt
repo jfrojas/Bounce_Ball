@@ -6,6 +6,10 @@ Direct3D:
     Vendor:   Intel
     VRAM:     848 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+Default GameObject Tag: Player already registered
+ 
+(Filename:  Line: 83)
+
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\game_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\game_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -15,25 +19,31 @@ Platform assembly: C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\ga
 Loading C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\game_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.090 seconds
+- Completed reload, in  0.048 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
-UnloadTime: 5.077039 ms
+UnloadTime: 1.258646 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 261.
-Total: 3.024391 ms (FindLiveObjects: 0.062512 ms CreateObjectMapping: 0.060179 ms MarkObjects: 0.221592 ms  DeleteObjects: 1.001599 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 266.
+Total: 0.929756 ms (FindLiveObjects: 0.017260 ms CreateObjectMapping: 0.016794 ms MarkObjects: 0.082572 ms  DeleteObjects: 0.363878 ms)
 
 Platform assembly: C:\Users\jf\Documents\GitHub\Bounce_Ball\New Unity Project\game_Data\Managed\Boo.Lang.dll (this message is harmless)
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
+hola
  
-(Filename:  Line: 1494)
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
 
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: needs reset, doing it
-FullResetD3DDevice
-ResetD3DDevice
-dev->Reset
-D3Dwindow device not lost anymore
+Button 1 Activated - OK!
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+hola
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+I'm in the else statement! && buttonCounter = 2
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
